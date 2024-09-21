@@ -1,2 +1,2 @@
 # Lenguaje-C-Sharp
-Lenguaje C#
+Programacion en lenguaje C#
