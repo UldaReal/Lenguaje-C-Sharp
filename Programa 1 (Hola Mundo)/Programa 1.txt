@@ -1,0 +1,23 @@
+using System;
+Se utiliza la palabra reservada using para importar alguna biblioteca, en este caso usaremos la biblioteca System
+
+namespace
+La palabra reservada namespace sirve para indicar el nombre de un grupo de codigo, en este caso solo utilizamos
+1 solo grupo por defecto así que no hace falta añadir más por el momento
+
+Class
+La palabra reservada Class sirve para indicar los nombres de las clases, se pueden utilizar diversas palabras
+antes como public o private, si no se coloca entonces por defecto es una clase publica, sería lo mismo:
+public Class Programa = Class Programa
+
+Metodo Principal
+Existen diversos metodos que pueden ser invocados casi desde cualquier parte del codigo pero hay un metodo
+principal que se ejecutará al iniciar el programa, este es:
+static void Main(string [] args){}
+Se debe escribir tal cual
+
+Console.WriteLine
+De momento no me adentraré mucho en este tema pero en la importación de la bilbioteca System se incluyen muchas
+clases y metodos, entre ellas una clase Console y un metodo WriteLine por lo que al escribir:
+Console.WriteLine("Hola Mundo");
+La clase Console está llamando al metodo WriteLine para mostrar un mensaje en pantalla
