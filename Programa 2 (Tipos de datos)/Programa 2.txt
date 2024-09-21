@@ -1,0 +1,21 @@
+Tipos de datos:
+int: El tipo de dato int significa integer o entero por lo que solo acepta valores enteros de hasta 9 unidades
+ejemplo: int num = 15;
+long: El tipo de dato long es un int más largo admitiendo hasta 19 valores como maximo, ejempplo:
+long num2 = 127893121312;
+float: El tipo de dato float permite utilizar hasta 5 decimales, en su declaracion se debe usar una letra ya
+sea F o f al final de la declaración, ejemplo: double num = 3.1416f;
+double: El tipo de dato double permite utilizar hasta 9 decimales
+decimal: El tipo de dato decimal admite hasta 12 decimales y en su declaracion se debe usar la letra M, ejemplo:
+decimal Money = 1789232.21345M;
+string: Para el tipo de dato string es una cadena de caracteres, debe de ir entre comillas, ejemplo:
+string nombre = "Pablo";
+char: char es un tipo de dato que solo admite 1 caracter y este debe de ir entre '', por ejemplo:
+char letra = 'B';
+bool: bool es un tipo de dato que solo puede ser verdadero y falso por ejemplo:
+bool mayor = false; || bool mayor = true;
+
+Cooncardenar valores
+Para cooncardenar valores desde Console.WriteLine(); se utiliza el simbolo "+", esto generalmente se utiliza por
+optimización o para colocar los tipos de datos, ejemplo: Console.WriteLine("Hola " + " Mundo"); o retomando un
+tipo de dato podría quedar como Console.WriteLine("Numero: " + num2); mostrando en pantalla: Numero: 127893121312
